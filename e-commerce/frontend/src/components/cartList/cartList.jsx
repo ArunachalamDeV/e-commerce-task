@@ -77,7 +77,7 @@ const ProductSummary = ({ list }) => {
         }}
         onClick={() => {
           const token = localStorage.getItem("token")
-          if (token)
+          if (!token) router("/signup");
             fetch("http://localhost:3333/check",{
               method: "GET",
               headers: {

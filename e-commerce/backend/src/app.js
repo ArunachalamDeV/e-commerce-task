@@ -4,7 +4,7 @@ const { authenticate } = require("./middleWare");
 const cors = require("cors");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-
+const jwtSecret = 'your_jwt_secret_key';
 module.exports = () => {
   const app = express();
   // middleware Connection
@@ -18,7 +18,7 @@ module.exports = () => {
 
     const token = jwt.sign(
       { name, hashedPassword, email },
-      process.env.jwtSecret,
+      jwtSecret,
       {
         expiresIn: "8h",
       }
@@ -44,7 +44,7 @@ module.exports = () => {
       return res.status(400).json({ message: "Invalid credentials" });
 
     // Create a JWT token
-    const token = jwt.sign({ username: user.username }, process.env.jwtSecret, {
+    const token = jwt.sign({ username: user.username }, jwtSecret, {
       expiresIn: "1h",
     });
 

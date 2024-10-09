@@ -1,0 +1,66 @@
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Style for the left part of the navbar (logo) */
+  .nav-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Center part (search bar) */
+  .nav-center {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search-form {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px 15px;
+    margin-top: 10px;
+    height: 31px;
+    padding-bottom: 5px;
+    width: 250px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+  
+  .search-btn {
+    padding: 8px 15px;
+    background-color: #FF4800;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    color: white;
+    outline: none;
+  }
+  
+  .search-btn:hover {
+    background-color: #FF4800;
+  }
+  
+  /* Right part (Cart) */
+  /* .nav-right a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  } */
+  
+  .nav-right p:hover {
+    cursor: pointer;
+    color: #ff8c00;
+  }
+  

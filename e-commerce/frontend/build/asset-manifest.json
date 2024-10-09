@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b306c3de.css",
+    "main.js": "/static/js/main.7f27cf2e.js",
+    "static/js/453.0297a6b4.chunk.js": "/static/js/453.0297a6b4.chunk.js",
+    "static/media/Wireless Earbuds.png": "/static/media/Wireless Earbuds.013160bd45aed208fef2.png",
+    "static/media/Bluetooth Speaker.png": "/static/media/Bluetooth Speaker.3c0dca48232172dc1da1.png",
+    "static/media/Smart TV.png": "/static/media/Smart TV.683f3766f6aea4d95b96.png",
+    "static/media/smartwatch.png": "/static/media/smartwatch.8fdcb16f13072a7daa0b.png",
+    "static/media/Electric Kettle.png": "/static/media/Electric Kettle.a9e977b6ec4b00e5e80e.png",
+    "static/media/Microwave Oven.png": "/static/media/Microwave Oven.29ab5b6b883c7aff5e0c.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Vector (2).svg": "/static/media/Vector (2).b1a0c578244ae1860efc5f06c47d617a.svg",
+    "static/media/mdi_cart-outline.svg": "/static/media/mdi_cart-outline.bc7f6036ba9cdcad8594b0ca70ce0b77.svg",
+    "static/media/Vector (5).svg": "/static/media/Vector (5).5782ae989e4670385019fc179e61aa34.svg",
+    "index.html": "/index.html",
+    "static/media/ic_baseline-plus.svg": "/static/media/ic_baseline-plus.172bedcec49d5f5d21b966fc3cbb3776.svg",
+    "main.b306c3de.css.map": "/static/css/main.b306c3de.css.map",
+    "main.7f27cf2e.js.map": "/static/js/main.7f27cf2e.js.map",
+    "453.0297a6b4.chunk.js.map": "/static/js/453.0297a6b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b306c3de.css",
+    "static/js/main.7f27cf2e.js"
+  ]
+}
